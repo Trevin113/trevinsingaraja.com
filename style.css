@@ -1,0 +1,150 @@
+
+body {
+  background-color:#28282B;
+  background-repeat: no-repeat; /* makes sure the background doesn't repeat and is only present once*/
+  background-size: cover; /* makes sure the background covers the whole page */
+  background-position: center center; /* centers the background image */
+  background-attachment: fixed; /* makes sure the background stays in place when you scroll */
+}
+
+
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+.intro-container {
+  position: absolute;
+  top: 280px;     /* moves it down */
+  left: 120px;    /* moves it right */
+}
+
+.highlight {
+  color: #07cadb;
+}
+
+p {
+  color: white;
+  font-family: 'Verdana', Times, serif;
+  font-size: 20px;
+ margin-right: 80px; /* Move text to the left */
+  margin-top: -20px; /* Move text up */
+
+ 
+}
+
+
+img {
+  width: 40%;
+  height: 40%;
+  margin-left: 900px;
+  margin-top: 60px; /* change this to a smaller negative or 0+ */
+}
+
+a{  /* These are the links of the page  */ 
+  color: #07cadb; /* This is the color of the links */
+  text-decoration: none; /* This is the underline of the links and its none so it doesn't have an underline */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* This is the font of the links the other 4 are backup fonts */
+  font-size: 20px; /* This is the size of the links */
+
+color:#07cadb;  /* This is the color of the links */
+text-decoration: none; /* This is the underline of the links and its none so it doesn't have an underline */
+font-weight: bold; /* This is the weight of the links */
+font-size: 20px; /* This is the size of the links */
+
+}
+
+a:hover {    /* This is the hover of the links */
+  color: #07cadb;  /* This is the color of the links when you hover over them */
+  text-decoration: underline; /* This is the underline of the links when you hover over them */
+
+color: #07cadb;  /* lighter on hover */
+text-decoration: underline; /* underline on hover */
+}
+
+ul {  /* This group of code removes the bullet points on the links */
+  list-style-type: none;  /* This removes the bullet points from the list */
+  padding: 0;  /* This is the padding of the list and its 0 from the top and bottom and 0 from the left and right */
+  margin: 0;  /* This is the margin of the list and its 0 from the top and bottom and 0 from the left and right */
+}
+
+.navbar {   /* This is the navagationbar of the page */
+  position: absolute; /* This makes the navbar go to the top of the page */
+  top: 50px;             /* This section makes it go down a little bit from the top */
+  right: 40px;          /* This section makes it go to the right of the page */
+  display: flex;        /* This section makes the navbar a flexbox */
+  gap: 50px;         /* This section makes the navbar have a gap between the links */
+}
+
+.navbar a { /* This is the link of the navbar */
+  color: #07cadb; /* This is the color of the link */
+  
+  padding: 14px 28px; /* This is the padding of the link and its 14px from the top and bottom and 28px from the left and right */
+  text-decoration: none; /* This is the underline of the link and its none so it doesn't have an underline */
+  font-weight: bold;  /* This is the weight of the link */
+  font-size: 22px; /* This is the size of the link */
+  border-radius: 10px; /* This is the border radius of the link and its 10px so it has rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* This is the transition of the link and its 0.3 seconds for the background color and 0.2 seconds for the transform */
+}
+
+.navbar a:hover { /* This is the hover of the link */
+ 
+  transform: translateY(-2px); /* This makes the link go up a little bit when you hover over it */
+}
+
+
+.intro-section { /* This is the section of the page that has the photo and the paragraph */
+  display: flex; /* This makes the section a flexbox */
+  align-items: flex-start;  /* This makes the items in the section align to the top */
+  gap: 40px; /* This makes the section have a gap between the photo and the paragraph */
+  max-width: 1000px; /* This is the max width of the section and its 1000px so it doesn't go off the page */
+  margin: 140px auto 0 auto; /* pushes it down and centers */
+  
+}
+
+.intro-section p { /* This is the paragraph of the section */
+  font-size: 20px; /* This is the size of the paragraph */
+  font-family: 'Times New Roman', Times, serif; /* This is the font of the paragraph the other 2 are backup fonts */
+  color: white; /* This is the color of the paragraph */
+  line-height: 1.5; /* This is the line height of the paragraph and its 1.5 so its not too close together */
+  max-width: 600px; /* This is the max width of the paragraph and its 600px so it doesn't go off the page */
+  margin-left: -250px;
+}
+
+.intro-section img { /* This is the photo of the section */
+  width: 40%; /* This is the width of the photo */
+  height: 40%; /* This is the height of the photo and its auto so it doesn't get distorted */
+  border-radius: 10px; /* This is the border radius of the photo and its 10px so it has rounded corners */
+}
+
+.social-icons {
+  position: fixed; /* Makes the div stay in place as you scroll */
+  top: 80%; /* Halfway down the screen */
+  left: 200px; /* Align to the left edge */
+  transform: translateY(-50%); /* Center it vertically relative to its own height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a  {
+  color: #00e5ff;  /* Light blue */
+  font-size: 40px;
+  margin: 0 30px; /* Space between icons */
+  
+  transition: 0.3s; 
+  
+  
+
+
+ 
+  
+}
+
+.social-icons a :hover {
+  color: #ffffff;
+}

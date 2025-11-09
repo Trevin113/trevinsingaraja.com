@@ -1,0 +1,71 @@
+body {
+    height: 100vh; /* Ensures the body takes up the full height of the viewport */
+    background-color: #28282B;
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+
+}
+
+img {       
+  
+  width: 720px; /* This is the width of the image */
+    height: auto; /* This is the height of the image and its auto so it doesn't get distorted */
+    display: block; /* This makes the image a block element */
+    margin-top: 40px; /* moves the image down a little bit */
+    margin-left: 200px; /* moves the image to the right */
+  
+
+}
+
+a{  /* These are the links of the page  */ 
+    color: white; /* This is the color of the links */
+    text-decoration: none; /* This is the underline of the links and its none so it doesn't have an underline */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* This is the font of the links the other 4 are backup fonts */
+    font-size: 20px; /* This is the size of the links */
+  
+  color: white;  /* This is the color of the links */
+  text-decoration: none; /* This is the underline of the links and its none so it doesn't have an underline */
+  font-weight: bold; /* This is the weight of the links */
+  font-size: 20px; /* This is the size of the links */
+  
+  }
+  
+  a:hover {    /* This is the hover of the links */
+    color: #ffa94d;  /* This is the color of the links when you hover over them */
+    text-decoration: underline; /* This is the underline of the links when you hover over them */
+  
+  color: #ffa94d;  /* lighter on hover */
+  text-decoration: underline; /* underline on hover */
+  }
+  
+  ul {  /* This group of code removes the bullet points on the links */
+    list-style-type: none;  /* This removes the bullet points from the list */
+    padding: 0;  /* This is the padding of the list and its 0 from the top and bottom and 0 from the left and right */
+    margin: 0;  /* This is the margin of the list and its 0 from the top and bottom and 0 from the left and right */
+  }
+  
+  .navbar {   /* This is the navagationbar of the page */
+    position: absolute; /* This makes the navbar go to the top of the page */
+    top: 50px;             /* This section makes it go down a little bit from the top */
+    right: 10px;          /* This section makes it go to the right of the page */
+    display: flex;        /* This section makes the navbar a flexbox */
+    gap: 20px;         /* This section makes the navbar have a gap between the links */
+  }
+  
+  .navbar a { /* This is the link of the navbar */
+    color: #07cadb; /* This is the color of the link */
+    /*background-color: black;   makes the link bubble black */ 
+    padding: 14px 28px; /* This is the padding of the link and its 14px from the top and bottom and 28px from the left and right */
+    text-decoration: none; /* This is the underline of the link and its none so it doesn't have an underline */
+    font-weight: bold;  /* This is the weight of the link */
+    font-size: 22px; /* This is the size of the link */
+    border-radius: 10px; /* This is the border radius of the link and its 10px so it has rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* This is the transition of the link and its 0.3 seconds for the background color and 0.2 seconds for the transform */
+  }
+  
+  .navbar a:hover { /* This is the hover of the link */
+    background-color: #222;  /* makes the bubble darker when you hover over it */
+    transform: translateY(-2px); /* This makes the link go up a little bit when you hover over it */
+  }
